@@ -212,8 +212,9 @@ body {
   font-weight: bold;
   font-size: 24px;
   cursor: pointer;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
   text-decoration: none;
+
 }
 
 .navbar-links a{
@@ -221,7 +222,8 @@ body {
   font-size: 18px;
   margin-left: 20px;
   cursor: pointer;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
+
   text-decoration: none;
 }
 
@@ -246,10 +248,12 @@ body {
   padding: 25px 50px;
   padding-top: 100px;
   text-align: center;
+  
+  align-items: center;
 }
 
 a.social {
-  margin: 0 1rem;
+  margin: 0 3rem;
   transition: transform 250ms;
   display: inline-block;
 }
@@ -259,18 +263,43 @@ a.social:hover {
 }
 
 a.youtube {
-  color: #2348eb;
+  color: #ffffff;
 }
 
 a.facebook {
-  color: #111620;
+  color: #ffffff;
 }
 
 
 a.instagram {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
-/* .title {
-  margin-bottom: 100px;
-} */
+.contact-card {
+  margin: auto;
+  border-radius: 18px;
+  text-align: center;
+  background-color: #281c4b;
+  padding: 30px;
+  width: 800px;
+  height: 200px;
+  /* Align items vertically in the center */
+  
+  margin-bottom: 50px;
+}
+.contact-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.contact-text a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0 20px;
+  text-decoration: none;
+}

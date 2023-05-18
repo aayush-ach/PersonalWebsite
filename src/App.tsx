@@ -1,7 +1,5 @@
 import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import  { useState } from 'react';
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -29,7 +27,7 @@ const Introduction = () => {
   return (
     <div className="introduction" id="introduction">
       <div className="container">
-        <h1 className="first"><span>Hello, I'm Aayush</span></h1>
+        <h1 className="first">Hello, I'm Aayush</h1>
         <p className="lead">
           Get to know me!
         </p>
@@ -142,22 +140,33 @@ const Contacts: React.FC = () => {
 
   return (
       <div className="social-container" id="contact">
-        <h2 className="title">Contact Me!</h2>
+        <h2 className="title">Contact Me</h2>
         <div className="underline"></div>
-        <span>
+        <div className="contact-card">
+          <h2 className="contact-title">Personal/Academic Queries</h2>
+          <p className="contact-text">
+            Email to : 
+            <a href="mailto:aayush.acharya@students.iiit.ac.in">
+               aayush.acharya@students.iiit.ac.in
+            </a>
+          </p>
+        </div>
+        <div className="contact-card">
+          <h2 className="contact-title">My Socials</h2>
           <a href="https://www.linkedin.com/in/aayush-acharya-707322235/"
               className="youtube social" target="_blank">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>
             <a href="https://github.com/aayush-ach"
               className="facebook social" target="_blank">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
+              <FontAwesomeIcon icon={faGithub} size="3x" />
             </a>
             <a href="https://www.instagram.com/_aayush.ach_"
               className="instagram social" target="_blank">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
-        </span>
+        </div>
+        
     </div>
   );
 };
