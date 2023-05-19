@@ -47,7 +47,7 @@ const About = () => {
             <Col >
               <div className="about-img-container">
                 <img
-                  src="src/me.jpg"
+                  src="/me.jpg"
                   alt="profile"
                   className="img-fluid"
                 />
