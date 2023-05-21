@@ -16,7 +16,7 @@ const CustomNavbar = () => {
       <div className="navbar-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contact Me</a>
       </div>
     </nav>
   );
