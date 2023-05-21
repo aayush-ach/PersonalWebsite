@@ -78,7 +78,7 @@ const projects = [
   },
   {
     title: 'Global Happiness Visualisation',
-    description: 'A report on the happiness scores of countries around the world, made using D3JS.',
+    description: 'A report on the happiness index of countries around the world.',
     image: 'src/happy.jpg',
   },
   
